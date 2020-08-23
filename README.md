@@ -4,24 +4,31 @@
 
 As a beginner introduction to javascript we were tasked with building a password generator.
 
-## The Assignment
+## User Story
 
 ```
-REQUEST: Create a password generator with an HTML GUI
-DELIVERABLE: A site that can create a new password for the user at the click of a button
+AS AN employee with access to sensitive data
+I WANT to randomly generate a password that meets certain criteria
+SO THAT I can create a strong password that provides greater security
 ```
 
 ## Acceptance Criteria
 
 ```
-WHEN I open a webpage I see a prompt to enter how many characters I want for a password.
-THEN A password is returned to me.
+GIVEN I need a new, secure password
+WHEN I click the button to generate a password
+THEN I am presented with a series of prompts for password criteria
+WHEN prompted for password criteria
+THEN I select which criteria to include in the password
+WHEN prompted for the length of the password
+THEN I choose a length of at least 8 characters and no more than 128 characters
+WHEN prompted for character types to include in the password
+THEN I choose lowercase, uppercase, numeric, and/or special characters
+WHEN I answer each prompt
+THEN my input should be validated and at least one character type should be selected
+WHEN all prompts are answered
+THEN a password is generated that matches the selected criteria
+WHEN the password is generated
+THEN the password is either displayed in an alert or written to the page
 ```
-
-## Changelog
-
-
-08/18/20 - Rick Mingione
-
-1. Built the function for creating the password. Pending a loop for # of characters requested by the user for the password.
 

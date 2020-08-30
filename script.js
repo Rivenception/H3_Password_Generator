@@ -48,7 +48,7 @@ function generatePassword() {
     // FOR LOOP ADDING CHARACTER TO PASSWORD VARIABLE
     for (let i = 0; i < passwordLength; i++){
       var charTypesRand = charTypes[getRndInteger(0, charTypes.length)];
-      pw += characters[charTypesRand][getRndInteger(0, characters[charTypeRand].length)]
+      pw += characters[charTypesRand][getRndInteger(0, characters[charTypesRand].length)]
     }
     // PASSWORD GENERATED
     return pw;
